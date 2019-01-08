@@ -82,7 +82,8 @@ $ ls opencv2
 
 ####Download and run OpenCV.jl
 ```julia
-Pkg.clone("git://github.com/maxruby/OpenCV.jl.git")
+using Pkg
+Pkg.clone("git://github.com/vishwesh5/OpenCV.jl.git")
 using OpenCV
 ```
 
